@@ -27,14 +27,13 @@
     <script>
         let dom = document.getElementById('display');
         let refresh = () => {
-            let num = Math.floor(Math.random()*6)+1;
+            let num = Math.floor(Math.random()*2);
             let el = React.createElement(
                 'p', {}, num
             );
             ReactDOM.render(el, dom);
         }
 
-        
     </script>
 </body>
 
